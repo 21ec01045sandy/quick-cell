@@ -1,14 +1,14 @@
 import { useQuery } from "@tanstack/react-query";
 import {
   apiResponse,
-  PRIORITY,
+
   priotityToText,
   statusToImg,
   user,
 } from "../types";
-import Card from "./Card/card";
+
 import NavBar from "./Navbar";
-import { useEffect, useMemo, useReducer, useState } from "react";
+import { useEffect, useMemo, useState } from "react";
 import Section from "./Section";
 
 type GroupedData<T> = {

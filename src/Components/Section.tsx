@@ -1,5 +1,5 @@
 import React from "react";
-import { cardProps, statusToImg } from "../types";
+import { cardProps } from "../types";
 import Card from "./Card/card";
 
 const Section = ({
